@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* Divide the columns evenly */
+    gap: 20px;
+    /* Adjust the gap between columns as desired */
+}
+
+.vending-machine-desc {
+    margin-top: 10rem;
+}
+
+.food-container {
+    margin-top: 10rem;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color:blanchedalmond;
+}
+.food-container p {
+    margin: 2rem;
+}
+
+.link {
+    /* Add styles for the link */
+    /* Example styles: */
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color:lightblue;
+  }
+  
+  .link:hover {
+    /* Add styles for the link when hovered */
+    /* Example styles: */
+    background-color: #333;
+    color: #fff;
+  }
